@@ -12,7 +12,7 @@ jobs:
         uses: garygrossgarten/github-action-ssh@release
         with:
           command: |
-            cd readit.com
+            cd learnwhere.co
             git pull
             npm install
             npx tsc
